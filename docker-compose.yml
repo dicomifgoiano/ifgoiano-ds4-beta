@@ -6,7 +6,6 @@ services:
       - "8080:8080"
     environment:
       SITE: Plone
-      ADDONS: "volto"
   frontend:
     image: plone/plone-frontend
     ports:
